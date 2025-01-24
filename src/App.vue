@@ -17,12 +17,43 @@ export default defineComponent({
 </script>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color:aliceblue;
+  padding:0;
+  margin:0;
+  background-image: url("../public/imgs/fondo.png");   
+  background-size: cover;
+  background-position:center;
+  
+ 
+} 
+* {
+  padding:0;
+  margin:0;
+  background-image: url("../public/imgs/fondo.png");   
+  background-size: cover;
+  background-position:center;
 }
+ /*
+* {
+  padding:0;
+  margin:0;
+  background-image: url("../public/imgs/fondo.png");   
+  background-size: cover;
+  background-position:center;
+}
+
+#app {
+  width:100%;
+  height:100%; 
+  display:flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top:4rem;
+}*/
 </style>
